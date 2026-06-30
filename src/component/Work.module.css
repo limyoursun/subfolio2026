@@ -1,17 +1,21 @@
 @charset "utf-8";
 :root {
-	--cards:5;
 	--cardHeight:70vh;
 	--cardTopPadding:0rem;
 }
 .wrap {margin:5rem 0 30rem;}
-.wrap ul{display:grid;gap:3rem;grid-template-columns:1fr;grid-template-rows:repeat(var(--cards),var(--cardHeight));padding-bottom:calc(var(--cards) * var(--cardTopPadding));}
+.wrap ul{display:grid;gap:3rem;grid-template-columns:1fr;grid-template-rows:repeat(var(--cards, 6),var(--cardHeight));padding-bottom:calc(var(--cards, 6) * var(--cardTopPadding));}
 .wrap li{position:sticky;top:0;padding-top:calc(var(--index) * var(--cardTopPadding));}
 .wrap li:nth-child(1){--index:1;}
 .wrap li:nth-child(2){--index:2;}
 .wrap li:nth-child(3){--index:3;}
 .wrap li:nth-child(4){--index:4;}
 .wrap li:nth-child(5){--index:5;}
+.wrap li:nth-child(6){--index:6;}
+.wrap li:nth-child(7){--index:7;}
+.wrap li:nth-child(8){--index:8;}
+.wrap li:nth-child(9){--index:9;}
+.wrap li:nth-child(10){--index:10;}
 
 @media screen and (max-width: 767px) { /* Mobile */
 	:root {

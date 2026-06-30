@@ -9,17 +9,15 @@
 .wrap > div {position:absolute;bottom:-400px;z-index:0;height:0;border-left:calc(50vw - 9px) solid transparent;border-top:0 solid transparent;border-bottom:280px solid var(--bg_color);border-right:calc(50vw - 8px) solid transparent;}
 
 @media screen and (max-width: 767px) { /* Mobile */
-  .wrap{padding:10vh 0;}
-  .wrap h1 > div{top:-1.5vh;}
-  .wrap span{font-size:25rem;}
+  .wrap span{font-size:20rem;}
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) { /* Tablet  */
-  .wrap span{font-size:30rem;}
+  .wrap span{font-size:18rem;}
 }
 
 @media all and (max-width: 1025px) { /* Mobile & Tablet  */
-  .wrap{background-attachment:initial;background-position:center center;}
-  .wrap h1{transform: translateY(0)}
-  .wrap h1 > div{display:block;left:calc(50% - 150px);}
+  .wrap{background-attachment:initial;background-position:center center;display:flex;align-items:center;justify-content:center;}
+  .wrap h1{transform:translateY(0);}
+  .wrap h1 > div{display:block;left:auto;margin:-8rem auto 0;width:55vw;}
 }
