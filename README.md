@@ -5,7 +5,7 @@
 2026년 버전의 <s>정석</s> 포트폴리오 입니다.<br>
 메인, 프로젝트, 사이드 프로젝트, 경력기술서 등을 확인할 수 있습니다.<br>
 
-#### [☁ 사이트 바로가기](https://limyoursun.github.io/subfolio/)
+#### [☁ 사이트 바로가기](https://limyoursun.github.io/subfolio2026/)
 
 ---
 
