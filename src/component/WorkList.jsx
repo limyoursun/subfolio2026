@@ -30,7 +30,7 @@ function WorkList({ client, nameAbbr, name, description, images, bg, detail, url
                     <div className="browser_url"></div>
                   </div>
                   <img
-                    src={`${import.meta.env.BASE_URL}images/img_${nameAbbr}_${index + 1}.png`}
+                    src={`${import.meta.env.BASE_URL}images/img_${nameAbbr}_${index + 1}.webp`}
                     alt={image[1]}
                   />
                 </div>
@@ -38,7 +38,7 @@ function WorkList({ client, nameAbbr, name, description, images, bg, detail, url
                 <img
                   key={index}
                   className={`image_${index + 1}`}
-                  src={`${import.meta.env.BASE_URL}images/img_${nameAbbr}_${index + 1}.png`}
+                  src={`${import.meta.env.BASE_URL}images/img_${nameAbbr}_${index + 1}.webp`}
                   alt={image[1]}
                 />
               )

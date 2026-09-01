@@ -158,7 +158,7 @@ function Project({nameAbbr, bg, summary, client, period, keyword, name, url, dut
                 <span></span><span></span><span></span>
                 <div className="browser_url"></div>
               </div>
-              <img src={`${baseUrl}img_${nameAbbr}_${index + 1}.png`} alt={img[1]} />
+              <img src={`${baseUrl}img_${nameAbbr}_${index + 1}.webp`} alt={img[1]} />
             </div>
           ))}
           {code && code.map((block, index) => (
@@ -180,10 +180,10 @@ function Project({nameAbbr, bg, summary, client, period, keyword, name, url, dut
           </div>
         </div>
         <ul className={style.screen_wrap} style={{ "background": `${bg[0]}`}}>
-          <li><img key={nameAbbr} src={`${baseUrl}img_${nameAbbr}_1.png`} alt={images[0][1]}/></li>
+          <li><img key={nameAbbr} src={`${baseUrl}img_${nameAbbr}_1.webp`} alt={images[0][1]}/></li>
         {images.slice(6, 9).map((img, index) => img[0] && (
           <li key={index}>
-            <img src={`${baseUrl}img_${nameAbbr}_detail_${index + 1}.png`} alt={img[1]} />
+            <img src={`${baseUrl}img_${nameAbbr}_detail_${index + 1}.webp`} alt={img[1]} />
           </li>
         ))}
         </ul>

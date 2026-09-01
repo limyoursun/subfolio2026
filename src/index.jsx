@@ -6,7 +6,7 @@ import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter basename="/subfolio">
+  <BrowserRouter basename="/subfolio2026">
     <App />
   </BrowserRouter>
 );

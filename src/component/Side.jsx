@@ -14,7 +14,7 @@ function Side() {
 
   useEffect(() => {
     sideProjects.forEach((work) => {
-      new Image().src = `${baseUrl}img_${work.nameAbbr}_1.png`;
+      new Image().src = `${baseUrl}img_${work.nameAbbr}_1.webp`;
       const bgMatch = work.bg[1].match(/url\(['"]?([^'")\s]+)['"]?\)/);
       if (bgMatch) new Image().src = bgMatch[1];
     });
@@ -33,7 +33,7 @@ function Side() {
 
   const bgStyle = { backgroundImage: extractBgImage(active.bg[1]), backgroundRepeat: "no-repeat", backgroundPosition: "center center", backgroundSize: "cover" };
 
-  const previewSrc = `${baseUrl}img_${active.nameAbbr}_1.png`;
+  const previewSrc = `${baseUrl}img_${active.nameAbbr}_1.webp`;
 
   const previewAlt = active.images?.[0]?.[1]
     || "이벤트 프로젝트의 미리보기 화면입니다.";
